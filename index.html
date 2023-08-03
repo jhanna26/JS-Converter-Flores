@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CONVERTER</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+    <form action="#" method="#">
+        <div id="container">
+            <h1>Lenghth Converter</h1>
+            <input type="text" placeholder="Input" id="input">
+            <label for="from">FROM</label>
+            <select name="converter" id="converter" >
+                <option value="Kilometer">Kilometer</option>
+                <option value="Meter">Meter</option>
+                <option value="Centimeter">Centimeter</option>
+            </select>
+          
+           <label for="to"> TO</label>
+            <select name="converter-2" id="converter2" >
+                <option value="Kilometer">Kilometer</option>
+                <option value="Meter">Meter</option>
+                <option value="Centimeter">Centimeter</option>
+            </select>
+            <input type="button" value="Result" id="resultbtn" onclick="myResult()">
+            <h1 id="display"></h1>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
